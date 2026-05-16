@@ -21,6 +21,9 @@ export function analyseMessage(message) {
     "unauthorized transaction",
     "security alert",
     "your account will be closed",
+    "unusual activity",
+"service interruption",
+"keep your online banking active",
   ];
 
   const sensitiveWords = [
@@ -31,6 +34,8 @@ export function analyseMessage(message) {
     "card number",
     "cvv",
     "login details",
+    "banking details",
+"confirm your banking details",
   ];
 
   const suspiciousLinkWords = [
